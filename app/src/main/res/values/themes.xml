@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Formation" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Color.customMainGreen</item>
+        <item name="colorPrimaryVariant">@color/Color.customYellow</item>
+        <item name="colorOnPrimary">@color/Color.customMainGreen</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/Color.customYellow</item>
+        <item name="colorSecondaryVariant">@color/Color.customGreen</item>
+        <item name="colorOnSecondary">@color/Color.customYellow</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >?attr/colorPrimary</item>
+    </style>
+
+    <style name="Theme.Formation.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Formation.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Formation.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
